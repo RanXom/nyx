@@ -1,1 +1,33 @@
-/target
+# === Rust/Cargo Defaults ===
+/target/
+/**/*.rs.bk
+**/*.swp
+Cargo.lock
+
+# === bootimage artifact ===
+bootimage-*.bin
+
+# === QEMU/VM runtime files ===
+*.img
+*.iso
+*.bin
+*.log
+
+# === Editor/IDE ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Backups ===
+*~
+*.bak
+*.tmp
+
+# === Git ===
+*.orig
+*.rej
+
